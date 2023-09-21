@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login.css">
+  <title>Document</title>
+</head>
+
+<body id="particles-js"></body>
+<div class="animated bounceInDown">
+  <div class="container">
+    <span class="error animated tada" id="msg"></span>
+    <form name="form1" class="box" onsubmit="return checkStuff()">
+      <h4>LOGIN <span>Dashboard</span></h4>
+     
+      <input type="text" name="email" placeholder="Email" autocomplete="off">
+      <i class="typcn typcn-eye" id="eye"></i>
+      <input type="password" name="password" placeholder="Password" id="pwd" autocomplete="off" required>
+      <input type="text" name="aadhar" placeholder="Aadhar number" autocomplete="off">
+      <a><input type="number" name="aadhar" placeholder="Enter the OTP" autocomplete="off" style="height: 29px;margin-right: 15px;border-radius: 4px;">
+        <span style="padding-right: 80px;"><input type="submit" value="Resend" class="btn2" style="height: 35px; width: 60px;border-radius: 4px;background-color: rgb(228, 233, 241);"></span>
+        <br><br>
+       
+      </a>
+      
+      <label for="" style="font-size: medium;color: rgb(222, 220, 220);">Categories</label>
+      <select name="sec" id="section" style="margin-left:10px; height: 30px;width:245px;background-color: rgb(146, 146, 248);text-align: center;border-radius: 5px;border: 0;">
+        <option value="" >--Select--</option>
+        <option value="Shakeholder">Shakeholder/Client</option>
+        <option value="Lawyer">Lawyer</option>
+        <option value="Judge">Judge</option>
+        <option value="ecourt">ecourt Employee</option>
+      </select>
+      <br>
+      <br>
+      <label>
+        <input type="checkbox">
+        <span></span>
+        <small class="rmb">Remember me</small>
+      </label>
+      <a href="#" class="forgetpass">Forget Password?</a>
+   <a href="Login.html" input type="submit"  class="btn1" style="text-decoration: none;text-align: center;margin-left: 20px;;"><h3>Sign in</h3></a>
+    </form>
+    <a href="#" class="dnthave">Don’t have an account? Sign up</a>
+  </div>
+  
+</div>
+
+</html>
